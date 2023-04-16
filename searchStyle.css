@@ -1,0 +1,83 @@
+/* Reset default styles */
+body, form, h1, input, img, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set background color and font styles */
+
+
+/* Set header styles */
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 36px;
+    color: #333;
+}
+
+/* Set form styles */
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 18px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Set grid view styles */
+.grid-view {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.music-item {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.music-item img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.music-item h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.music-item p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #777;
+}
